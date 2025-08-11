@@ -1,9 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
 :root{
     --color-primario: #113f67;
-    --color-secundario: #FDF5AA;
+    --color-secundario: #f8f3c7;
     --espaciado-grande: 3rem;
     --fuente-principal: "Gill Sans", sans-serif;
 }
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--color-secundario);
+}
+
+
 
 header {
     background-color: var(--color-primario);
@@ -13,5 +27,12 @@ header {
 
 a {
     color:#3498db;
+}
+
+footer{
+    background-color: aliceblue;
+}
+.titulo-grande{
+
 }
 
