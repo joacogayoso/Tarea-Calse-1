@@ -1,0 +1,17 @@
+:root{
+    --color-primario: #113f67;
+    --color-secundario: #FDF5AA;
+    --espaciado-grande: 3rem;
+    --fuente-principal: "Gill Sans", sans-serif;
+}
+
+header {
+    background-color: var(--color-primario);
+    padding: var(--espaciado-grande);
+    font-family: var(--fuente-principal);
+}
+
+a {
+    color:#3498db;
+}
+
