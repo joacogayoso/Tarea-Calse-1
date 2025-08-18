@@ -1,9 +1,16 @@
-:root{
+:root {
     --color-primario: #113f67;
-    --color-secundario: #FDF5AA;
+    --color-secundario: #FCF8DD;
     --espaciado-grande: 3rem;
     --fuente-principal: "Gill Sans", sans-serif;
 }
+
+body {
+    font-family: var(--fuente-principal) font-size 20px;
+    color: rgb(0, 5, 8);
+    background-color: var(--color-secundario);
+}
+
 
 header {
     background-color: var(--color-primario);
@@ -11,7 +18,51 @@ header {
     font-family: var(--fuente-principal);
 }
 
-a {
-    color:#3498db;
+nav a {
+    color: #3498db;
+    text-decoration: dotted;
+    padding: 5px 250px;
 }
+
+nav p {
+    color: #070707;
+    text-decoration: dotted;
+    padding: 5px 250px;
+}
+
+
+   /* max-width: 500px;
+    margin: 30px;
+    padding: 10px;*/
+
+    img{
+        width: 10%;
+        height: 200px;
+    }
+
+    h1 {
+        font-size: 50px;
+        text-align: center;
+        font-weight: bold;
+        /*peso de la fuente-normal,negrita*/
+
+        
+    }
+
+    .navegaciones {
+        width: 300px;
+        height: 200px;
+        padding: 20px;
+        border: 5px solid var(--color-primario);
+        margin: 20px;
+        box-sizing: border-box;
+    }
+
+    footer {
+        background-color: rgba(194, 204, 212, 0.555);
+        text-align: center;
+        font-family: var(--fuente-principal);
+    }
+
+    
 
